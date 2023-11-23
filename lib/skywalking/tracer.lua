@@ -18,7 +18,7 @@ local Span = require('skywalking.span')
 local TC = require('skywalking.tracing_context')
 local Layer = require('skywalking.span_layer')
 local Segment = require('skywalking.segment')
-local Util = require("skywalking.util")
+local Util = require("skywalking.swutil")
 local Const = require('skywalking.constants')
 local json = require('cjson.safe')
 

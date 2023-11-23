@@ -16,7 +16,7 @@
 --
 
 local lu = require('luaunit')
-local Util = require('skywalking.util')
+local Util = require('skywalking.swutil')
 
 TestUtil = {}
     function TestUtil.testNewID()

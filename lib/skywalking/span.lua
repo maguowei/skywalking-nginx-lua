@@ -16,7 +16,7 @@
 --
 
 local spanLayer = require("skywalking.span_layer")
-local Util = require('skywalking.util')
+local Util = require('skywalking.swutil')
 local SegmentRef = require("skywalking.segment_ref")
 local table = table
 

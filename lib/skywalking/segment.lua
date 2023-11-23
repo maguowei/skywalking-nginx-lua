@@ -18,7 +18,7 @@
 -- Segment represents a finished tracing context
 -- Including all information to send to the SkyWalking OAP server.
 local Span = require('skywalking.span')
-local Util = require('skywalking.util')
+local Util = require('skywalking.swutil')
 
 local _M = {}
 -- local Segment = {

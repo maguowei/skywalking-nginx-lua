@@ -15,7 +15,7 @@
 -- limitations under the License.
 --
 
-local Util = require('skywalking.util')
+local Util = require('skywalking.swutil')
 local Span = require('skywalking.span')
 local SegmentRef = require('skywalking.segment_ref')
 local CorrelationContext = require('skywalking.correlation_context')

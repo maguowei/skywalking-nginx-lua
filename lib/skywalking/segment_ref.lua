@@ -14,7 +14,7 @@
 -- See the License for the specific language governing permissions and
 -- limitations under the License.
 --
-local Util = require('skywalking.util')
+local Util = require('skywalking.swutil')
 local encode_base64 = Util.encode_base64
 local decode_base64 = Util.decode_base64
 
